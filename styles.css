@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(160, 201, 221);
+  color: aliceblue;
+  text-align: center;
+}
+
 body,
 input#guess-btn,
 input#guess-input {
@@ -9,4 +17,15 @@ input#guess-input {
 input {
   border: 1px solid;
   border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  flex-flow: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
