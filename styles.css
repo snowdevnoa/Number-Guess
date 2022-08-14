@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body,
+input#guess-btn,
+input#guess-input {
+  font-family: 'Silkscreen', cursive;
+}
+
+input {
+  border: 1px solid;
+  border-radius: 5px;
+}
